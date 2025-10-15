@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+}
+.name{
+    font-size: 24px;
+    margin-right: 200px;
+    
+}
+.nav{
+    font-size: 18px;
+    height: auto;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.img{
+    width: auto;
+    height: 15px;
+    margin-top: 30px;
+}
+.fast{
+    margin: auto;
+    text-align: center;
+    font-size: 80px;
+    background: linear-gradient(#FF3BFF,#ECBFBF,#5C24FF,#D94FD5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.sc{
+    margin: auto;
+    text-align: center;
+    font-size: 80px;
+}
+.ops{
+    margin-left: 420px;
+    font-size: 20px;
+    width: 650px;
+    height: 99px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 30px;
+    
+    
+}
+.btn1{
+    margin-left: 600px;
+
+}
+.btn2{
+    
+
+}
+.images{
+    
+    
+    
+}
