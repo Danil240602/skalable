@@ -1,4 +1,5 @@
 body{
+    font-family: "Chillax", sans-serif;
     background-color: black;
     color:white;
 }
@@ -37,6 +38,9 @@ body{
     text-align: center;
     font-size: 80px;
 }
+.about{
+    font-family: "Cabinet Grotesk", sans-serif;
+}
 .ops{
     margin-left: 420px;
     font-size: 20px;
@@ -46,17 +50,17 @@ body{
 button{
     background-color: black;
     color: white;
-    border-radius: 20px;
     padding: 15px 30px;
     font-size: 20px;
+    border-radius: 20px;
 }
 .btn1{
     margin-left: 550px;
-    border: solid;
+    border: 3px solid ;
+    border-image: linear-gradient(#FF3BFF,#ECBFBF,#5C24FF,#D94FD5) 1;
 }
 .btn2{
     border: solid white;
-
 }
 .images{ 
 }
