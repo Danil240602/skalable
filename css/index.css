@@ -11,9 +11,10 @@ body{
 .name{
     font-size: 24px;
     margin-right: 200px;
-    
 }
 .nav{
+    display: flex;
+    justify-content: space-between;
     font-size: 18px;
     height: auto;
     margin-right: 100px;
@@ -22,7 +23,7 @@ body{
 .img{
     width: auto;
     height: 15px;
-    margin-top: 30px;
+    margin: 30px 5px;
 }
 .fast{
     margin: auto;
@@ -42,25 +43,41 @@ body{
     font-family: "Cabinet Grotesk", sans-serif;
 }
 .ops{
-    margin-left: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-size: 20px;
-    width: 650px;
     height: 99px;
 }
 button{
     background-color: black;
     color: white;
-    padding: 15px 30px;
-    font-size: 20px;
-    border-radius: 20px;
+    border-radius: 100px;
+}
+.sp{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 100px;
+    padding: 16px 32px;
 }
 .btn1{
-    margin-left: 550px;
-    border: 3px solid ;
-    border-image: linear-gradient(#FF3BFF,#ECBFBF,#5C24FF,#D94FD5) 1;
+    margin-left: 600px;
+    background: linear-gradient(#FF3BFF,#ECBFBF,#5C24FF,#D94FD5);
+    border:black;
+    max-width: 146px;
+    max-height: 60px;
+    overflow: hidden;
 }
 .btn2{
+    padding:15px 30px;
     border: solid white;
 }
 .images{ 
+    position: relative;
+    display: inline-block;
+    height: 470px;
+    width: auto;
 }
